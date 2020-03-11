@@ -1,8 +1,5 @@
 window.onload = function () {
-  console.log('loaded');
+  
+  console.log('hello');
 
-  function fn() {
-    var a = 1;
-    return a;
-  }
 }
