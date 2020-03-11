@@ -1,8 +1,7 @@
 window.onload = function () {
-  console.log('loaded');
+  var animal = ['白兔', '蜻蜓'];
 
-  function fn() {
-    var a = 1;
-    return a;
-  }
+  animal.forEach(v => {
+    console.log('v ==> ', v);
+  })
 }
